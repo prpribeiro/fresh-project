@@ -1,0 +1,6 @@
+Execute a first round to decouple some of the components. 
+The way it is today, components with different responsibilities 
+are tied together. Ideally, we should have atomic components that 
+are responsible for a single task - and these components 
+should communicate (using simple references or through a communication 
+protocol when process or technologies are different)
